@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H.A - Limpeza | Property Readiness & Asset Care</title>
+  <meta name="description" content="Preparação Profissional de Ativos Imobiliários para Venda, Arrendamento e Entrega. Soluções B2B na Área Metropolitana de Lisboa.">
+  <meta property="og:title" content="H.A - Limpeza | Property Readiness & Asset Care">
+  <meta property="og:description" content="Reduzimos a vacatura imobiliária e entregamos ativos prontos para habitar e transacionar na AML.">
+  <meta property="og:image" content="assets/logo.png">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <img src="assets/logo.png" alt="H.A - Limpeza Logo" onerror="this.src='assets/logo.svg'">
+        <div class="nav-brand-text">
+          <span class="nav-brand-title">H.A - Limpeza</span>
+          <span class="nav-brand-tag">Property Readiness</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#processo" class="nav-link">Processo</a>
+        <a href="#precario" class="nav-link">Preçário</a>
+        <a href="#simulador" class="nav-link">Simulador</a>
+        <a href="#projecoes" class="nav-link">Projeções</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contacto" class="btn btn-primary btn-sm">Pedir Orçamento</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="badge">
+            <span class="badge-dot"></span>
+            Área Metropolitana de Lisboa · Sede Almada
+          </div>
+          <h1>
+            Reduzimos a Vacatura Imobiliária e Entregamos <span class="gradient">Ativos Prontos para Habitar</span>
+          </h1>
+          <p>
+            Preparação estética e técnica profissional de imóveis para venda, arrendamento, pós-obra e preservação de património na Área Metropolitana de Lisboa.
+          </p>
+          <div class="hero-actions">
+            <a href="#simulador" class="btn btn-primary">Receber Simulação</a>
+            <a href="#servicos" class="btn btn-secondary">Conhecer Soluções</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <h4>B2B</h4>
+              <p>Foco Imobiliário</p>
+            </div>
+            <div class="hero-stat-item">
+              <h4>4 Packs</h4>
+              <p>Solução Modular</p>
+            </div>
+            <div class="hero-stat-item">
+              <h4>AML</h4>
+              <p>Cobertura Total</p>
+            </div>
+            <div class="hero-stat-item">
+              <h4>24h</h4>
+              <p>Opção Urgente</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-showcase">
+          <div class="hero-card">
+            <div class="hero-card-header">
+              <span class="hero-card-title">Porquê Escolher a H.A?</span>
+              <span class="badge" style="margin:0; font-size:0.75rem;">Auditável</span>
+            </div>
+            <ul class="hero-card-list">
+              <li>
+                <span class="icon">✓</span>
+                <span><strong>Aceleração de Venda/Arrendamento:</strong> Imóveis visualmente impecáveis vendem até 40% mais rápido.</span>
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <span><strong>Relatório Fotográfico com Timestamp:</strong> Evidência objetiva do estado do ativo antes e após a intervenção.</span>
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <span><strong>Previsibilidade Comercial B2B:</strong> Preçário fixo e transparente para orçamentação imediata sem demoras.</span>
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <span><strong>Seguro e Responsabilidade Civil:</strong> Proteção integral para acabamentos nobres e equipamentos.</span>
+              </li>
+            </ul>
+            <div style="margin-top: 1.5rem; text-align: center;">
+              <a href="#contacto" class="btn btn-emerald btn-sm" style="width: 100%;">Solicitar Diagnóstico Gratuito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Thesis / About Section -->
+  <section class="services-section" id="sobre">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Tese Estratégica</div>
+        <h2>Uma operação desenhada para eliminar atrito na transição de imóveis</h2>
+        <p>A H.A - Limpeza combina rigor estético, prontidão sanitária, controlo técnico e preservação de património num único interlocutor operacional corporativo.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section" id="servicos" style="background: var(--bg-darker); border-top: 1px solid var(--border-dark); border-bottom: 1px solid var(--border-dark);">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Soluções Corporativas</div>
+        <h2>Não vendemos apenas limpeza. Entregamos prontidão operacional.</h2>
+        <p>Desenvolvido à medida de imobiliárias, construtoras, investidores e gestores de carteiras patrimoniais.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div>
+            <div class="service-icon">⌂</div>
+            <h3>Property Prep</h3>
+            <p>Preparação estética profunda antes da promoção, sessões fotográficas profissionais, visitas de clientes, venda ou arrendamento rápido.</p>
+          </div>
+          <div class="service-meta">
+            <span>A partir de</span>
+            <span class="service-price">280 €</span>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div>
+            <div class="service-icon">✦</div>
+            <h3>Renovation</h3>
+            <p>Limpeza técnica profunda pós-obra e remodelação. Raspagem de tintas, silicones, colas e aspiração industrial de poeiras finas.</p>
+          </div>
+          <div class="service-meta">
+            <span>A partir de</span>
+            <span class="service-price">420 €</span>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div>
+            <div class="service-icon">✓</div>
+            <h3>Ready to Occupy</h3>
+            <p>Detalhe de acabamento, desinfeção hospitalar de superfícies de toque, aromatização e checklist de conformidade para entrega de chave.</p>
+          </div>
+          <div class="service-meta">
+            <span>A partir de</span>
+            <span class="service-price">320 €</span>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div>
+            <div class="service-icon">◉</div>
+            <h3>Property Care</h3>
+            <p>Vistorias quinzenais/mensais, purga de canalizações, arejamento, deteção de anomalias/infiltrações e relatório periódico com fotos.</p>
+          </div>
+          <div class="service-meta">
+            <span>Mensal desde</span>
+            <span class="service-price">120 €/mês</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="process-section" id="processo">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Método Auditável</div>
+        <h2>Do diagnóstico à entrega em quatro passos</h2>
+        <p>Processo industrializado com rastreabilidade e garantia total em cada intervenção.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <h4>Diagnóstico</h4>
+          <p>Levantamento rápido da tipologia, área m², localização, estado do imóvel e urgência.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <h4>Planeamento</h4>
+          <p>Orçamento transparente e alocação de equipa técnica com equipamentos e consumíveis dedicados.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <h4>Execução</h4>
+          <p>Intervenção técnica padronizada, aplicação de protocolos de segurança e checklist de controlo.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <h4>Auditoria & Entrega</h4>
+          <p>Inspeção final de qualidade, relatório fotográfico antes/depois e entrega formal do ativo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dynamic Pricing Matrix & Inline Editor -->
+  <section class="pricing-section" id="precario">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Preçário B2B</div>
+        <h2>Tabela de Referência e Gestão de Preços</h2>
+        <p>Valores sem IVA para a Área Metropolitana de Lisboa. Os preços alimentam o simulador em tempo real.</p>
+      </div>
+
+      <div class="pricing-admin-bar">
+        <div>
+          <strong style="color: #ffffff;">Configuração Local de Preçário:</strong>
+          <span style="color: var(--text-muted-dark); font-size: 0.85rem; margin-left: 0.5rem;">Edite os valores diretamente na tabela abaixo. Ficam guardados neste navegador.</span>
+        </div>
+        <div style="display: flex; gap: 0.5rem;">
+          <button id="btn-save-prices" class="btn btn-primary btn-sm">Guardar Preços</button>
+          <button id="btn-reset-prices" class="btn btn-secondary btn-sm">Repor Padrões</button>
+        </div>
+      </div>
+
+      <div class="pricing-table-wrapper">
+        <div class="table-responsive">
+          <table class="pricing-table">
+            <thead>
+              <tr>
+                <th>Tipologia / Área</th>
+                <th>Property Prep</th>
+                <th>Renovation (Pós-Obra)</th>
+                <th>Ready to Occupy</th>
+                <th>Property Care / Mês</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>T0 / T1</strong> (&le; 65 m²)</td>
+                <td><input type="number" id="cfg-prep-t1" class="price-editable-input" value="280"> €</td>
+                <td><input type="number" id="cfg-reno-t1" class="price-editable-input" value="420"> €</td>
+                <td><input type="number" id="cfg-ready-t1" class="price-editable-input" value="320"> €</td>
+                <td><input type="number" id="cfg-care-t1" class="price-editable-input" value="120"> €</td>
+              </tr>
+              <tr>
+                <td><strong>T2</strong> (&le; 95 m²)</td>
+                <td><input type="number" id="cfg-prep-t2" class="price-editable-input" value="390"> €</td>
+                <td><input type="number" id="cfg-reno-t2" class="price-editable-input" value="580"> €</td>
+                <td><input type="number" id="cfg-ready-t2" class="price-editable-input" value="440"> €</td>
+                <td><input type="number" id="cfg-care-t2" class="price-editable-input" value="160"> €</td>
+              </tr>
+              <tr>
+                <td><strong>T3</strong> (&le; 130 m²)</td>
+                <td><input type="number" id="cfg-prep-t3" class="price-editable-input" value="490"> €</td>
+                <td><input type="number" id="cfg-reno-t3" class="price-editable-input" value="750"> €</td>
+                <td><input type="number" id="cfg-ready-t3" class="price-editable-input" value="560"> €</td>
+                <td><input type="number" id="cfg-care-t3" class="price-editable-input" value="200"> €</td>
+              </tr>
+              <tr>
+                <td><strong>T4+ / Moradias</strong></td>
+                <td><input type="number" step="0.1" id="cfg-prep-t4" class="price-editable-input" value="3.8"> €/m²</td>
+                <td><input type="number" step="0.1" id="cfg-reno-t4" class="price-editable-input" value="5.5"> €/m²</td>
+                <td><input type="number" step="0.1" id="cfg-ready-t4" class="price-editable-input" value="4.2"> €/m²</td>
+                <td><input type="number" id="cfg-care-t4" class="price-editable-input" value="240"> €</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Commercial Simulator -->
+  <section class="simulator-section" id="simulador">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Unit Economics & Rentabilidade</div>
+        <h2>Simulador Comercial por Intervenção</h2>
+        <p>Ajuste os parâmetros operacionais para calcular receita, custos diretos (COGS) e margem líquida.</p>
+      </div>
+
+      <div class="simulator-card">
+        <div class="simulator-grid">
+          <!-- Inputs Column -->
+          <div class="simulator-inputs">
+            <h3 style="margin-bottom: 1.5rem; color: #ffffff; font-size: 1.2rem;">Parâmetros da Operação</h3>
+            
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label class="form-label" for="sim-pack">Pack de Serviço</label>
+                <select id="sim-pack" class="form-control">
+                  <option value="propertyPrep">Property Prep (Comercial)</option>
+                  <option value="renovation">Renovation (Pós-Obra)</option>
+                  <option value="readyToOccupy">Ready to Occupy (Entrega)</option>
+                  <option value="propertyCare">Property Care (Preservação)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="sim-typology">Tipologia</label>
+                <select id="sim-typology" class="form-control">
+                  <option value="T1">T0 / T1 (&le; 65m²)</option>
+                  <option value="T2" selected>T2 (&le; 95m²)</option>
+                  <option value="T3">T3 (&le; 130m²)</option>
+                  <option value="T4">T4+ / Moradia (> 130m²)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label class="form-label" for="sim-area">Área do Ativo (m²)</label>
+                <input type="number" id="sim-area" class="form-control" value="90">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="sim-techs">Número de Técnicos</label>
+                <input type="number" id="sim-techs" class="form-control" value="2">
+              </div>
+            </div>
+
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label class="form-label" for="sim-hours">Horas por Técnico</label>
+                <input type="number" step="0.5" id="sim-hours" class="form-control" value="4.5">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="sim-rate">Custo Carregado MO / Hora (€)</label>
+                <input type="number" step="0.5" id="sim-rate" class="form-control" value="14.0">
+              </div>
+            </div>
+
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label class="form-label" for="sim-consumables">Consumíveis & Químicos (€)</label>
+                <input type="number" id="sim-consumables" class="form-control" value="25.0">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="sim-km">Distância Operacional Total (km)</label>
+                <input type="number" id="sim-km" class="form-control" value="25.0">
+              </div>
+            </div>
+
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label class="form-label" for="sim-km-cost">Custo por km (€)</label>
+                <input type="number" step="0.05" id="sim-km-cost" class="form-control" value="0.40">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="sim-tolls">Portagens / Estacionamento (€)</label>
+                <input type="number" step="0.5" id="sim-tolls" class="form-control" value="4.50">
+              </div>
+            </div>
+
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label class="form-label" for="sim-insurance">Seguro & Rateio Equipamento (€)</label>
+                <input type="number" id="sim-insurance" class="form-control" value="10.0">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="sim-discount">Desconto Comercial B2B (%)</label>
+                <input type="number" id="sim-discount" class="form-control" value="0">
+              </div>
+            </div>
+          </div>
+
+          <!-- Outputs Column -->
+          <div class="simulator-outputs">
+            <div>
+              <div class="output-hero-metric">
+                <div class="output-hero-title">Margem Bruta Unitária</div>
+                <div class="output-hero-value" id="out-profit">258,50 €</div>
+                <div class="output-hero-sub" id="out-margin">61,5%</div>
+              </div>
+
+              <ul class="output-breakdown">
+                <li>
+                  <span>Preço de Venda ao Cliente:</span>
+                  <span class="val text-primary" id="out-revenue">390,00 €</span>
+                </li>
+                <li>
+                  <span>Custo Total de Mão de Obra:</span>
+                  <span class="val" id="out-labor-cost">126,00 €</span>
+                </li>
+                <li>
+                  <span>Consumíveis & Químicos:</span>
+                  <span class="val" id="out-consumables-cost">25,00 €</span>
+                </li>
+                <li>
+                  <span>Logística (km + portagens):</span>
+                  <span class="val" id="out-logistics-cost">14,50 €</span>
+                </li>
+                <li>
+                  <span>Seguro e Amortizações:</span>
+                  <span class="val" id="out-overhead-cost">10,00 €</span>
+                </li>
+                <li>
+                  <span><strong>Total Custos Diretos (COGS):</strong></span>
+                  <span class="val" style="color: #f87171;" id="out-cogs">175,50 €</span>
+                </li>
+                <li style="border-top: 1px solid rgba(255,255,255,0.2); padding-top: 0.5rem;">
+                  <span><strong>EBITDA Simulado por Op:</strong></span>
+                  <span class="val text-emerald" id="out-ebitda">200,00 €</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="simulator-actions">
+              <button id="btn-print-sim" class="btn btn-secondary btn-sm" style="flex:1;">Imprimir / PDF</button>
+              <button id="btn-export-sim-csv" class="btn btn-primary btn-sm" style="flex:1;">Exportar CSV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Financial Projections (5 Years) -->
+  <section class="projections-section" id="projecoes">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Escala Operacional 2026 - 2031</div>
+        <h2>Modelo de Crescimento Financeiro a 5 Anos</h2>
+        <p>Simulação plurianual de receitas, margem bruta, custos de estrutura e EBITDA operacional.</p>
+      </div>
+
+      <div class="scenario-selector">
+        <button class="scenario-btn" data-scenario="conservador">Cenário Conservador</button>
+        <button class="scenario-btn active" data-scenario="realista">Cenário Realista (Base)</button>
+        <button class="scenario-btn" data-scenario="agressivo">Cenário Agressivo</button>
+      </div>
+
+      <div class="pricing-table-wrapper">
+        <div class="table-responsive">
+          <table class="pricing-table">
+            <thead>
+              <tr>
+                <th>Ano</th>
+                <th>Volume Operacional</th>
+                <th>Faturação Prevista</th>
+                <th>Margem Bruta (€ / %)</th>
+                <th>OPEX Fixo Estimado</th>
+                <th>EBITDA Operacional</th>
+              </tr>
+            </thead>
+            <tbody id="projections-table-body">
+              <!-- Populated dynamically via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div style="text-align: right; margin-top: 1rem;">
+        <button id="btn-export-proj-csv" class="btn btn-secondary btn-sm">Exportar Projeções CSV</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Strategic CTA Banner -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>NÃO VENDEMOS LIMPEZAS.</h2>
+      <p class="lead">Entregamos Ativos Imobiliários Prontos para Gerar Valor.</p>
+      <a href="#contacto" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 2.2rem;">Solicitar Diagnóstico Gratuito</a>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge">Dúvidas Frequentes</div>
+        <h2>Informação Essencial</h2>
+        <p>Esclarecimentos sobre raio de atuação, faturação, prazos e condições comerciais.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">Qual é a área geográfica de operação?</button>
+          <div class="faq-answer">
+            <p>A base operacional e logística da H.A situa-se em Almada, assegurando cobertura prioritária em Almada, Lisboa, Seixal, Cascais, Oeiras, Sintra, Loures, Odivelas e Setúbal.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Os preços apresentados incluem IVA?</button>
+          <div class="faq-answer">
+            <p>Não. Os valores de referência são apresentados sem IVA, acrescendo a taxa legal em vigor na fatura corporativa emitida à sua empresa.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Como funciona a taxa de urgência para intervenções em 24h?</button>
+          <div class="faq-answer">
+            <p>Aplica-se um acréscimo comercial de 25% sobre o valor base do pack quando é solicitada alocação técnica prioritária em menos de 24 horas, sujeita a confirmação de capacidade.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">Como é formalizado o orçamento final?</button>
+          <div class="faq-answer">
+            <p>A tabela de referência permite orçamentação imediata. Para ativos atípicos ou necessidades especiais de restauro/remoção de entulho, realizamos diagnóstico técnico prévio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Diagnostic Request Section -->
+  <section class="contact-section" id="contacto">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <div class="badge">Contacto Corporativo</div>
+          <h3 style="font-size: 1.8rem; margin-bottom: 1rem; color: #ffffff;">Prepare o próximo ativo connosco</h3>
+          <p style="color: var(--text-muted-dark); margin-bottom: 2rem;">
+            Solicite um diagnóstico gratuito e receba uma proposta adaptada à tipologia, localização e estado de conservação do imóvel.
+          </p>
+
+          <div class="contact-info-item">
+            <div class="icon">📍</div>
+            <div>
+              <strong style="color: #ffffff;">Base Operacional:</strong>
+              <p style="color: var(--text-muted-dark); margin: 0;">Almada · Área Metropolitana de Lisboa</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="icon">✉️</div>
+            <div>
+              <strong style="color: #ffffff;">Email Institucional:</strong>
+              <p style="margin: 0;"><a href="mailto:contacto@ha-limpeza.pt" style="color: var(--primary);">contacto@ha-limpeza.pt</a></p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="icon">📞</div>
+            <div>
+              <strong style="color: #ffffff;">Telefone / WhatsApp B2B:</strong>
+              <p style="margin: 0;"><a href="tel:+351900000000" style="color: #ffffff;">+351 900 000 000</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <h3 style="font-size: 1.4rem; margin-bottom: 1.5rem; color: #ffffff;">Pedir Proposta de Property Readiness</h3>
+          <form id="form-diagnostic">
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label class="form-label" for="form-name">Nome / Empresa *</label>
+                <input type="text" id="form-name" class="form-control" required placeholder="Ex: Ana Silva (Century 21)">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="form-email">Email Corporativo *</label>
+                <input type="email" id="form-email" class="form-control" required placeholder="Ex: ana.silva@agencia.pt">
+              </div>
+            </div>
+
+            <div class="form-group-grid">
+              <div class="form-group">
+                <label class="form-label" for="form-phone">Telefone / Telemóvel *</label>
+                <input type="tel" id="form-phone" class="form-control" required placeholder="+351 9XX XXX XXX">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="form-county">Concelho do Imóvel</label>
+                <select id="form-county" class="form-control">
+                  <option value="Almada">Almada</option>
+                  <option value="Lisboa">Lisboa</option>
+                  <option value="Seixal">Seixal</option>
+                  <option value="Cascais">Cascais</option>
+                  <option value="Oeiras">Oeiras</option>
+                  <option value="Sintra">Sintra</option>
+                  <option value="Loures / Odivelas">Loures / Odivelas</option>
+                  <option value="Setúbal">Setúbal</option>
+                  <option value="Outro">Outro</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-service">Serviço Pretendido</label>
+              <select id="form-service" class="form-control">
+                <option value="Property Prep">Property Prep (Preparação Fotografia/Visitas)</option>
+                <option value="Renovation">Renovation (Limpeza Técnica Pós-Obra)</option>
+                <option value="Ready to Occupy">Ready to Occupy (Entrega de Chave)</option>
+                <option value="Property Care">Property Care (Preservação Periódica)</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="form-notes">Detalhes do Ativo (Tipologia, m², Urgência)</label>
+              <textarea id="form-notes" class="form-control" rows="3" placeholder="Indique a tipologia, estado do imóvel e data limite pretendida..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Preparar Pedido de Diagnóstico</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4 style="color:#ffffff; font-size:1.2rem;">H.A - Limpeza</h4>
+          <p style="color: var(--accent-cyan); font-weight:600; font-size: 0.8rem; text-transform:uppercase;">Property Readiness & Asset Care</p>
+          <p>Preparação profissional de imóveis para acelerar transações e reduzir períodos de vacatura na Área Metropolitana de Lisboa.</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Serviços</h5>
+          <ul>
+            <li><a href="#servicos">Property Prep</a></li>
+            <li><a href="#servicos">Renovation</a></li>
+            <li><a href="#servicos">Ready to Occupy</a></li>
+            <li><a href="#servicos">Property Care</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Ferramentas</h5>
+          <ul>
+            <li><a href="#precario">Preçário Oficial</a></li>
+            <li><a href="#simulador">Simulador Unit Economics</a></li>
+            <li><a href="#projecoes">Projeções Financeiras</a></li>
+            <li><a href="#faq">Perguntas Frequentes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contacto</h5>
+          <ul>
+            <li>Almada, Portugal</li>
+            <li>Área Metropolitana de Lisboa</li>
+            <li>contacto@ha-limpeza.pt</li>
+            <li>+351 900 000 000</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 H.A - Limpeza. Todos os direitos reservados. Valores sem IVA.
+        </div>
+        <div>
+          <a href="#" style="color: #64748b; margin-right: 1rem;">Voltar ao Topo &uarr;</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Scripts -->
+  <script src="js/pricing-engine.js"></script>
+  <script src="js/simulator.js"></script>
+  <script src="js/projections.js"></script>
+  <script>
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        item.classList.toggle('active');
+      });
+    });
+
+    // Toast Utility
+    function showToast(msg) {
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      toast.className = 'toast';
+      toast.textContent = msg;
+      container.appendChild(toast);
+      setTimeout(() => {
+        toast.remove();
+      }, 3500);
+    }
+
+    // Inline Price Editor Handlers
+    const engine = window.haPricingEngine;
+    function syncPriceInputs() {
+      const p = engine.pricing;
+      document.getElementById('cfg-prep-t1').value = p.propertyPrepT1;
+      document.getElementById('cfg-prep-t2').value = p.propertyPrepT2;
+      document.getElementById('cfg-prep-t3').value = p.propertyPrepT3;
+      document.getElementById('cfg-prep-t4').value = p.propertyPrepT4M2;
+
+      document.getElementById('cfg-reno-t1').value = p.renovationT1;
+      document.getElementById('cfg-reno-t2').value = p.renovationT2;
+      document.getElementById('cfg-reno-t3').value = p.renovationT3;
+      document.getElementById('cfg-reno-t4').value = p.renovationT4M2;
+
+      document.getElementById('cfg-ready-t1').value = p.readyT1;
+      document.getElementById('cfg-ready-t2').value = p.readyT2;
+      document.getElementById('cfg-ready-t3').value = p.readyT3;
+      document.getElementById('cfg-ready-t4').value = p.readyT4M2;
+
+      document.getElementById('cfg-care-t1').value = p.propertyCareT1;
+      document.getElementById('cfg-care-t2').value = p.propertyCareT2;
+      document.getElementById('cfg-care-t3').value = p.propertyCareT3;
+      document.getElementById('cfg-care-t4').value = p.propertyCareT4;
+    }
+
+    syncPriceInputs();
+
+    document.getElementById('btn-save-prices').addEventListener('click', () => {
+      const newPricing = {
+        propertyPrepT1: parseFloat(document.getElementById('cfg-prep-t1').value) || 280,
+        propertyPrepT2: parseFloat(document.getElementById('cfg-prep-t2').value) || 390,
+        propertyPrepT3: parseFloat(document.getElementById('cfg-prep-t3').value) || 490,
+        propertyPrepT4M2: parseFloat(document.getElementById('cfg-prep-t4').value) || 3.8,
+
+        renovationT1: parseFloat(document.getElementById('cfg-reno-t1').value) || 420,
+        renovationT2: parseFloat(document.getElementById('cfg-reno-t2').value) || 580,
+        renovationT3: parseFloat(document.getElementById('cfg-reno-t3').value) || 750,
+        renovationT4M2: parseFloat(document.getElementById('cfg-reno-t4').value) || 5.5,
+
+        readyT1: parseFloat(document.getElementById('cfg-ready-t1').value) || 320,
+        readyT2: parseFloat(document.getElementById('cfg-ready-t2').value) || 440,
+        readyT3: parseFloat(document.getElementById('cfg-ready-t3').value) || 560,
+        readyT4M2: parseFloat(document.getElementById('cfg-ready-t4').value) || 4.2,
+
+        propertyCareT1: parseFloat(document.getElementById('cfg-care-t1').value) || 120,
+        propertyCareT2: parseFloat(document.getElementById('cfg-care-t2').value) || 160,
+        propertyCareT3: parseFloat(document.getElementById('cfg-care-t3').value) || 200,
+        propertyCareT4: parseFloat(document.getElementById('cfg-care-t4').value) || 240
+      };
+
+      engine.savePricing(newPricing);
+      showToast('✓ Preçário guardado com sucesso no navegador!');
+    });
+
+    document.getElementById('btn-reset-prices').addEventListener('click', () => {
+      engine.resetToDefaults();
+      syncPriceInputs();
+      showToast('✓ Preçário restaurado para os valores padrão!');
+    });
+
+    // Contact Form Mailto Generator
+    document.getElementById('form-diagnostic').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('form-name').value;
+      const email = document.getElementById('form-email').value;
+      const phone = document.getElementById('form-phone').value;
+      const county = document.getElementById('form-county').value;
+      const service = document.getElementById('form-service').value;
+      const notes = document.getElementById('form-notes').value;
+
+      const subject = encodeURIComponent(`[Pedido Diagnóstico B2B] ${service} - ${county} (${name})`);
+      const body = encodeURIComponent(
+        `Nome / Empresa: ${name}\n` +
+        `Email: ${email}\n` +
+        `Telefone: ${phone}\n` +
+        `Concelho: ${county}\n` +
+        `Serviço Solicitado: ${service}\n` +
+        `Detalhes do Ativo:\n${notes}\n\n` +
+        `--\nEnviado através do website H.A - Limpeza (Property Readiness)`
+      );
+
+      window.location.href = `mailto:contacto@ha-limpeza.pt?subject=${subject}&body=${body}`;
+      showToast('✓ A abrir o seu cliente de email com a mensagem estruturada...');
+    });
+  </script>
+</body>
+</html>

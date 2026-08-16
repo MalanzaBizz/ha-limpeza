@@ -1,0 +1,44 @@
+{
+  "company": {
+    "name": "H.A - Limpeza",
+    "category": "Property Readiness & Asset Care",
+    "tagline": "Preparação Profissional de Ativos Imobiliários para Venda, Arrendamento e Entrega",
+    "location": "Almada · Área Metropolitana de Lisboa",
+    "email": "contacto@ha-limpeza.pt",
+    "phone": "+351 900 000 000"
+  },
+  "pricing": {
+    "propertyPrepT1": 280,
+    "propertyPrepT2": 390,
+    "propertyPrepT3": 490,
+    "propertyPrepT4M2": 3.8,
+    "renovationT1": 420,
+    "renovationT2": 580,
+    "renovationT3": 750,
+    "renovationT4M2": 5.5,
+    "readyT1": 320,
+    "readyT2": 440,
+    "readyT3": 560,
+    "readyT4M2": 4.2,
+    "propertyCareT1": 120,
+    "propertyCareT2": 160,
+    "propertyCareT3": 200,
+    "propertyCareT4": 240
+  },
+  "operationalDefaults": {
+    "costHour": 14.0,
+    "consumables": 25.0,
+    "kmCost": 0.40,
+    "defaultKm": 25.0,
+    "defaultTolls": 4.50,
+    "defaultInsurance": 10.0,
+    "urgencySurchargePct": 25.0
+  },
+  "financialTargets": {
+    "year1": { "interventionsMonth": 30, "ticketMedio": 420, "annualRevenue": 151200 },
+    "year2": { "interventionsMonth": 60, "ticketMedio": 420, "annualRevenue": 302400 },
+    "year3": { "interventionsMonth": 100, "ticketMedio": 420, "annualRevenue": 504000 },
+    "year4": { "interventionsMonth": 150, "ticketMedio": 420, "annualRevenue": 756000 },
+    "year5": { "interventionsMonth": 220, "ticketMedio": 420, "annualRevenue": 1108800 }
+  }
+}

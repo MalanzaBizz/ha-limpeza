@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80" width="100%" height="100%">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#464feb" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+  </defs>
+  <!-- Icon Mark -->
+  <rect x="5" y="10" width="60" height="60" rx="14" fill="#0d233e" stroke="#464feb" stroke-width="2.5" />
+  <path d="M 20 50 L 35 25 L 50 50 Z" fill="none" stroke="url(#primaryGrad)" stroke-width="3.5" stroke-linejoin="round" />
+  <circle cx="35" cy="42" r="4" fill="#10b981" />
+  
+  <!-- Text Brand -->
+  <text x="80" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="-0.5">H.A - Limpeza</text>
+  <text x="80" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" fill="#38bdf8" letter-spacing="1.8">PROPERTY READINESS &amp; ASSET CARE</text>
+</svg>
