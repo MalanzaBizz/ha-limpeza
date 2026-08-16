@@ -8,8 +8,8 @@
 <meta name="robots" content="index,follow">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_PT">
-<meta property="og:title" content="H.A - Limpeza | Property Readiness & Asset Care">
-<meta property="og:description" content="Preparação profissional de imóveis para imobiliárias, construtoras e gestores de património na Área Metropolitana de Lisboa. Property Prep, pós-obra e vistorias.">
+<meta property="og:title" content="H.A - Limpeza | Ativos prontos. Resultados mais rápidos.">
+<meta property="og:description" content="Preparação profissional de imóveis para venda, arrendamento, pós-obra, entrada de ocupantes e preservação de ativos vagos na Área Metropolitana de Lisboa.">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://malanzaops.github.io/ha-limpeza/">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
@@ -34,15 +34,15 @@
   "email": "contacto@ha-limpeza.pt"
 }
 </script>
-<title>H.A - Limpeza | Property Readiness & Asset Care B2B</title>
+<title>H.A - Limpeza | Ativos prontos. Resultados mais rápidos.</title>
 <style>
 :root {
   --navy: #07182b;
   --navy-light: #0d2746;
-  --navy-card: #102d50;
+  --navy-card: #0c233c;
   --gold: #d6b36a;
   --gold-light: #f3d38c;
-  --gold-glow: rgba(214, 179, 106, 0.25);
+  --gold-glow: rgba(214, 179, 106, 0.28);
   --cyan: #03c5f4;
   --cyan-glow: rgba(3, 197, 244, 0.22);
   --ink: #0f172a;
@@ -119,24 +119,25 @@ img, svg { display: block; max-width: 100%; }
 .nav-actions { display: flex; align-items: center; gap: 14px; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  border-radius: 999px; padding: 12px 24px; font-weight: 700; font-size: 0.92rem;
-  cursor: pointer; transition: all 0.25s ease; border: 1px solid transparent;
+  border-radius: 999px; padding: 13px 26px; font-weight: 800; font-size: 0.94rem;
+  cursor: pointer; transition: all 0.25s ease; border: 1px solid transparent; text-decoration: none;
 }
 .btn-primary {
-  background: linear-gradient(135deg, var(--gold), #ecd08c);
+  background: linear-gradient(135deg, var(--gold-light), var(--gold));
   color: #07182b; border-color: rgba(214, 179, 106, 0.6);
-  box-shadow: 0 8px 22px var(--gold-glow);
+  box-shadow: 0 8px 24px var(--gold-glow);
 }
 .btn-primary:hover {
-  background: linear-gradient(135deg, #dfbc73, #f5d999);
-  transform: translateY(-2px); box-shadow: 0 12px 28px var(--gold-glow);
+  background: linear-gradient(135deg, #f7dd9d, #dfbc73);
+  transform: translateY(-2px); box-shadow: 0 12px 30px var(--gold-glow);
+  color: #07182b;
 }
 .btn-secondary {
   background: rgba(255, 255, 255, 0.08); color: #ffffff;
-  border-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.28);
 }
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.16); color: #ffffff; transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.18); color: #ffffff; transform: translateY(-2px);
 }
 .btn-outline-dark {
   background: #fff; color: var(--navy); border-color: #cbd5e1;
@@ -159,83 +160,72 @@ img, svg { display: block; max-width: 100%; }
   font-size: 0.76rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.1em;
 }
 .hero .eyebrow {
-  background: rgba(255, 255, 255, 0.08); color: var(--gold-light);
-  border-color: rgba(214, 179, 106, 0.4);
+  background: rgba(255, 255, 255, 0.07); color: #f4d995;
+  border: 1px solid rgba(214, 179, 106, 0.45);
 }
 
-/* Hero Section */
+/* Hero Section (Punchy, High-Impact) */
 .hero {
   min-height: 100vh; padding: 155px 0 95px;
-  background: radial-gradient(circle at 85% 20%, rgba(3, 197, 244, 0.18), transparent 32%),
-              radial-gradient(circle at 15% 85%, rgba(214, 179, 106, 0.16), transparent 36%),
-              linear-gradient(135deg, #030d17 0%, #071c33 50%, #07182b 100%);
+  background: radial-gradient(circle at 80% 25%, rgba(3, 197, 244, 0.18), transparent 30%),
+              radial-gradient(circle at 18% 85%, rgba(214, 179, 106, 0.16), transparent 34%),
+              linear-gradient(135deg, #030f1d 0%, #08213b 55%, #07182b 100%);
   color: #fff; display: flex; align-items: center; position: relative;
 }
 .hero-grid {
-  display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 60px; align-items: center;
+  display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 55px; align-items: center;
 }
 .hero h1 {
-  font-size: clamp(2.4rem, 4.8vw, 4.4rem); line-height: 1.05;
-  margin: 22px 0 20px; font-weight: 800;
+  font-size: clamp(2.8rem, 5.4vw, 5rem); line-height: 1.02;
+  margin: 22px 0 20px; font-weight: 800; letter-spacing: -0.04em;
 }
 .hero h1 span {
-  background: linear-gradient(135deg, var(--gold-light), #ffffff);
+  color: var(--gold-light);
+  background: linear-gradient(135deg, #f7dda2 0%, var(--gold) 100%);
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
 }
 .hero p.lead {
-  font-size: clamp(1.05rem, 1.8vw, 1.25rem); color: #cad8e8;
-  max-width: 680px; line-height: 1.65; margin-bottom: 32px;
+  font-size: clamp(1.05rem, 1.8vw, 1.22rem); color: #cdd9e8;
+  max-width: 620px; line-height: 1.6; margin-bottom: 34px; font-weight: 400;
 }
-.hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 40px; }
+.hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 20px; }
 
-.hero-stats {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.12); padding-top: 24px;
-}
-.stat-item { display: flex; flex-direction: column; }
-.stat-item strong { font-size: 1.35rem; color: var(--gold-light); font-weight: 800; font-family: 'Space Grotesk', sans-serif; }
-.stat-item span { font-size: 0.74rem; color: #a4b7cc; line-height: 1.3; margin-top: 2px; }
-
-/* Hero Interactive Card */
+/* Right Hero Card with 3D Logo & Stat Pills */
 .hero-card {
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 24px; padding: 28px;
-  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 28px; padding: 22px;
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  max-width: 440px; margin: 0 auto; width: 100%;
 }
-.hero-card-header {
-  display: flex; align-items: center; justify-content: space-between;
-  margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+.hero-image-wrap {
+  border-radius: 20px; overflow: hidden;
+  background: #051322;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex; align-items: center; justify-content: center;
 }
-.hero-card-header h3 { font-size: 1.15rem; color: #fff; }
-.live-badge {
-  display: inline-flex; align-items: center; gap: 6px;
-  background: rgba(16, 185, 129, 0.15); color: #34d399;
-  border: 1px solid rgba(16, 185, 129, 0.3);
-  padding: 4px 10px; border-radius: 999px; font-size: 0.72rem; font-weight: 700;
+.hero-image-wrap img {
+  width: 100%; height: auto; display: block; object-fit: cover;
+  border-radius: 20px;
 }
-.live-badge::before {
-  content: ""; width: 6px; height: 6px; border-radius: 50%;
-  background: #10b981; box-shadow: 0 0 8px #10b981;
+.hero-list {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
+  margin-top: 18px;
 }
-
-.hero-checklist { list-style: none; display: flex; flex-direction: column; gap: 14px; }
-.hero-checklist li {
-  display: flex; align-items: flex-start; gap: 12px;
-  font-size: 0.88rem; color: #cbd8e8;
+.hero-stat {
+  text-align: center; padding: 12px 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
 }
-.check-icon {
-  width: 20px; height: 20px; border-radius: 6px;
-  background: rgba(214, 179, 106, 0.2); color: var(--gold-light);
-  display: grid; place-items: center; font-size: 0.75rem; flex-shrink: 0; margin-top: 2px;
+.hero-stat b {
+  display: block; color: var(--gold-light);
+  font-size: 1.12rem; font-family: 'Space Grotesk', sans-serif; font-weight: 800;
 }
-.hero-card-footer {
-  margin-top: 24px; padding-top: 18px; border-top: 1px solid rgba(255, 255, 255, 0.1);
-  display: flex; align-items: center; justify-content: space-between;
+.hero-stat span {
+  font-size: 0.72rem; color: #a4b7cc; line-height: 1.2; display: block; margin-top: 2px;
 }
-.hero-card-footer span { font-size: 0.78rem; color: #94a3b8; }
-.hero-card-footer strong { font-size: 0.92rem; color: var(--cyan); }
 
 /* Trust Strip */
 .trust-strip {
@@ -503,18 +493,24 @@ input[type="range"] {
   display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;
 }
 
-/* Floating WhatsApp / Contact CTA */
+/* Floating Pill CTA (Matching Previous Layout) */
 .floating-cta {
   position: fixed; right: 24px; bottom: 24px; z-index: 999;
-  display: inline-flex; align-items: center; gap: 10px;
-  background: #25d366; color: #ffffff; font-weight: 700; font-size: 0.9rem;
-  padding: 12px 20px; border-radius: 999px; box-shadow: 0 10px 30px rgba(37, 211, 102, 0.35);
-  transition: all 0.25s ease; border: 1px solid rgba(255,255,255,0.3);
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(7, 24, 43, 0.95); color: #fff;
+  padding: 13px 22px; border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+  font-size: 0.9rem; text-decoration: none;
+  backdrop-filter: blur(10px);
+  transition: all 0.25s ease;
 }
 .floating-cta:hover {
-  transform: translateY(-3px) scale(1.02); box-shadow: 0 14px 35px rgba(37, 211, 102, 0.45);
-  color: #fff;
+  transform: translateY(-3px);
+  background: #0c2746; border-color: var(--gold);
 }
+.floating-cta span { color: #cbd8e6; }
+.floating-cta b { color: var(--gold-light); font-weight: 800; }
 
 /* Toast */
 .toast {
@@ -531,7 +527,6 @@ input[type="range"] {
   .hero-grid, .sim-grid, .contact-grid, .promise-banner { grid-template-columns: 1fr; }
   .segment-grid, .services-grid, .process-grid, .value-grid { grid-template-columns: 1fr 1fr; }
   .trust-grid { grid-template-columns: 1fr 1fr; }
-  .hero-stats { grid-template-columns: 1fr 1fr; }
   .footer-grid { grid-template-columns: 1fr; }
   .menu {
     display: none; position: absolute; top: 80px; left: 0; right: 0;
@@ -546,8 +541,8 @@ input[type="range"] {
 @media (max-width: 640px) {
   .segment-grid, .services-grid, .process-grid, .value-grid, .trust-grid, .form-grid, .result-specs { grid-template-columns: 1fr; }
   .hero { padding-top: 130px; }
+  .hero-card { max-width: 100%; }
   .sim-form-side, .sim-result-side, .contact-form-card, .promise-banner { padding: 28px 20px; }
-  .hero-card { padding: 20px; }
 }
 </style>
 </head>
@@ -584,74 +579,46 @@ input[type="range"] {
     </nav>
 
     <div class="nav-actions">
-      <a class="btn btn-primary" href="#simulador">Simular Projeto</a>
+      <a class="btn btn-primary" href="#simulador">Simular projeto</a>
     </div>
   </div>
 </header>
 
 <main>
-  <!-- Hero Section -->
+  <!-- Hero Section (Impactful & Punchy Copy) -->
   <section class="hero" id="inicio">
     <div class="container hero-grid">
       <div>
         <div class="eyebrow">
-          <span>PARCEIRO OPERACIONAL B2B · AML (ALMADA · LISBOA · SEIXAL)</span>
+          <span>BASE ALMADA/SEIXAL · OPERAÇÃO NA AML</span>
         </div>
-        <h1>Colocamos o seu imóvel em condição de venda, arrendamento ou entrega, <span>mais rápido e com controlo total.</span></h1>
-        <p class="lead">Preparação profissional de imóveis para imobiliárias, construtoras e gestores de património na Área Metropolitana de Lisboa. Property Prep, limpeza pós‑obra, ready to occupy e Property Care com relatório antes/depois.</p>
+        <h1>Ativos prontos.<br><span>Resultados mais rápidos.</span></h1>
+        <p class="lead">Preparação profissional de imóveis para venda, arrendamento, pós-obra, entrada de ocupantes e preservação de ativos vagos.</p>
         
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#simulador">Simular Projeto Agora</a>
-          <a class="btn btn-secondary" href="#contacto">Falar com um Especialista</a>
-        </div>
-
-        <div class="hero-stats">
-          <div class="stat-item">
-            <strong>-70%</strong>
-            <span>Tempo até publicação ou entrega</span>
-          </div>
-          <div class="stat-item">
-            <strong>&lt; 72h</strong>
-            <span>Prazo de execução padrão garantido</span>
-          </div>
-          <div class="stat-item">
-            <strong>100%</strong>
-            <span>Checklist & evidência fotográfica</span>
-          </div>
-          <div class="stat-item">
-            <strong>AML</strong>
-            <span>Margem Sul & Grande Lisboa</span>
-          </div>
+          <a class="btn btn-primary" href="#simulador">Simular projeto</a>
+          <a class="btn btn-secondary" href="#servicos">Conhecer soluções</a>
         </div>
       </div>
 
-      <!-- Hero Card -->
+      <!-- Hero Card with 3D Logo & Stat Pills -->
       <div class="hero-card">
-        <div class="hero-card-header">
-          <h3>Garantia de Prontidão B2B</h3>
-          <span class="live-badge">Operação Ativa</span>
+        <div class="hero-image-wrap">
+          <img src="assets/logo.png" alt="H.A - Limpeza! Logo" width="380" height="380" loading="eager">
         </div>
-        <ul class="hero-checklist">
-          <li>
-            <div class="check-icon">✓</div>
-            <div><strong>Entrada Imediata no Mercado:</strong> Imóvel pronto para fotografia profissional, visitas e captação de propostas sem atrasos.</div>
-          </li>
-          <li>
-            <div class="check-icon">✓</div>
-            <div><strong>Zero Ruído na Entrega:</strong> Eliminação de poeiras finas pós-obra, colas e sujidade residual antes da vistoria do cliente final.</div>
-          </li>
-          <li>
-            <div class="check-icon">✓</div>
-            <div><strong>Auditoria & Relatório Fotográfico:</strong> Registo visual de alta resolução antes e depois de cada intervenção.</div>
-          </li>
-          <li>
-            <div class="check-icon">✓</div>
-            <div><strong>Preservação de Ativos Vazios:</strong> Vistorias periódicas, circulação técnica de águas e deteção precoce de anomalias.</div>
-          </li>
-        </ul>
-        <div class="hero-card-footer">
-          <span>Ponto de contacto único</span>
-          <strong>Suporte Técnico Dedicado</strong>
+        <div class="hero-list">
+          <div class="hero-stat">
+            <b>B2B</b>
+            <span>Foco imobiliário</span>
+          </div>
+          <div class="hero-stat">
+            <b>AML</b>
+            <span>Cobertura regional</span>
+          </div>
+          <div class="hero-stat">
+            <b>4 packs</b>
+            <span>Solução modular</span>
+          </div>
         </div>
       </div>
     </div>
@@ -1250,9 +1217,9 @@ input[type="range"] {
   </div>
 </footer>
 
-<!-- Floating WhatsApp CTA -->
-<a class="floating-cta" href="https://wa.me/351900000000?text=Ol%C3%A1%2C%20gostaria%20de%20uma%20informa%C3%A7%C3%A3o%20r%C3%A1pida%20sobre%20prepara%C3%A7%C3%A3o%20de%20im%C3%B3vel." target="_blank" rel="noopener" aria-label="Contacto rápido por WhatsApp">
-  <span>💬 WhatsApp Rápido</span>
+<!-- Floating CTA Pill (Matching Previous Layout) -->
+<a class="floating-cta" href="#contacto">
+  <span>Projeto imobiliário?</span> <b>Pedir proposta</b>
 </a>
 
 <div class="toast" id="toast">Pedido registado com sucesso!</div>
@@ -1367,9 +1334,6 @@ document.getElementById('contactForm').addEventListener('submit', (e) => {
   toast.classList.add('show');
   setTimeout(() => toast.classList.remove('show'), 5000);
 
-  // Optional: Trigger WhatsApp or mailto as fallback
-  const mailtoBody = encodeURIComponent(`Nome: ${name}\nEmpresa: ${company}\nTelefone: ${phone}\nLocalização: ${location}\n\nMensagem/Projeto:\n${message}`);
-  // window.location.href = `mailto:contacto@ha-limpeza.pt?subject=Pedido de Proposta - ${encodeURIComponent(name)}&body=${mailtoBody}`;
   e.target.reset();
 });
 
