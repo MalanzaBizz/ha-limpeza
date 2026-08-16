@@ -868,10 +868,10 @@ input[type="range"] {
               <div class="form-group">
                 <label for="simClientType">Perfil do Cliente</label>
                 <select id="simClientType" class="form-control">
-                  <option value="imobiliaria">Agência Imobiliária / Mediador</option>
-                  <option value="construtora">Construtora / Remodelação</option>
-                  <option value="gestor">Gestor de Património / Investidor</option>
-                  <option value="particular">Particular / Outro</option>
+                  <option value="imobiliaria">Agência Imobiliária / Consultor</option>
+                  <option value="construtora">Empresa de Construção / Remodelação</option>
+                  <option value="gestor">Gestor de Ativos / Fundo Imobiliário</option>
+                  <option value="particular">Proprietário Particular</option>
                 </select>
               </div>
 
@@ -879,10 +879,10 @@ input[type="range"] {
               <div class="form-group">
                 <label for="simService">Serviço Pretendido</label>
                 <select id="simService" class="form-control">
-                  <option value="prep">Property Prep (Foto/Visitas)</option>
-                  <option value="reno">Renovation (Pós-Obra)</option>
-                  <option value="ready">Ready to Occupy (Entrega)</option>
-                  <option value="care">Property Care (Preservação Mensal)</option>
+                  <option value="prep">Property Prep (Fotos e Visitas)</option>
+                  <option value="reno">Renovation (Limpeza Pós-Obra)</option>
+                  <option value="ready">Ready to Occupy (Pronto a Habitar / Entrega)</option>
+                  <option value="care">Property Care (Preservação Periódica)</option>
                 </select>
               </div>
 
@@ -901,10 +901,10 @@ input[type="range"] {
               <div class="form-group">
                 <label for="simState">Estado do Imóvel</label>
                 <select id="simState" class="form-control">
-                  <option value="vazio">Desocupado / Vazio</option>
+                  <option value="vazio">Devoluto / Vazio</option>
                   <option value="mobilado">Mobilado / Decorado</option>
                   <option value="pos-obra">Pós-Obra Recente</option>
-                  <option value="desgaste">Devolução / Uso Intenso</option>
+                  <option value="desgaste">Fim de Arrendamento / Desgaste</option>
                 </select>
               </div>
 
@@ -1143,7 +1143,7 @@ input[type="range"] {
             </div>
 
             <div class="form-group">
-              <label for="contactPhone">Telefone / WhatsApp *</label>
+              <label for="contactPhone">Contacto Telefónico / WhatsApp *</label>
               <input type="tel" id="contactPhone" name="phone" class="form-control" placeholder="+351 9xx xxx xxx" required>
             </div>
 
@@ -1153,17 +1153,17 @@ input[type="range"] {
             </div>
 
             <div class="form-group full">
-              <label for="contactLocation">Localização do Imóvel / Concelho *</label>
-              <input type="text" id="contactLocation" name="location" class="form-control" placeholder="Ex: Almada, Lisboa, Seixal, Cascais..." required>
+              <label for="contactLocation">Localização do Imóvel (Concelho) *</label>
+              <input type="text" id="contactLocation" name="location" class="form-control" placeholder="Ex.: Almada, Lisboa, Seixal, Cascais, Oeiras, Sintra..." required>
             </div>
 
             <div class="form-group full">
-              <label for="contactMessage">Detalhes do Projeto / Imóvel</label>
-              <textarea id="contactMessage" name="message" rows="3" class="form-control" placeholder="Indique a tipologia, prazo pretendido ou necessidades específicas..."></textarea>
+              <label for="contactMessage">Observações / Especificidades do Imóvel</label>
+              <textarea id="contactMessage" name="message" rows="3" class="form-control" placeholder="Indique a tipologia, estado do imóvel, prazos pretendidos ou requisitos específicos..."></textarea>
             </div>
 
             <div class="form-group full" style="margin-top: 10px;">
-              <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Pedido de Proposta</button>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Submeter Pedido de Proposta</button>
             </div>
           </div>
         </form>
@@ -1196,18 +1196,19 @@ input[type="range"] {
       <div>
         <h4>Serviços B2B</h4>
         <ul class="footer-links">
-          <li><a href="#servicos">Property Prep (Foto & Visitas)</a></li>
-          <li><a href="#servicos">Renovation (Pós-Obra)</a></li>
-          <li><a href="#servicos">Ready to Occupy (Entrega)</a></li>
-          <li><a href="#servicos">Property Care (Preservação)</a></li>
+          <li><a href="#servicos">Property Prep (Fotos e Visitas)</a></li>
+          <li><a href="#servicos">Renovation (Limpeza Pós-Obra)</a></li>
+          <li><a href="#servicos">Ready to Occupy (Entrega de Chaves)</a></li>
+          <li><a href="#servicos">Property Care (Preservação Periódica)</a></li>
         </ul>
       </div>
 
       <div>
         <h4>Navegação</h4>
         <ul class="footer-links">
-          <li><a href="#segmentos">Para Quem É</a></li>
-          <li><a href="#simulador">Simulador Orçamental</a></li>
+          <li><a href="#segmentos">Segmentos</a></li>
+          <li><a href="#servicos">Soluções</a></li>
+          <li><a href="#simulador">Simulador</a></li>
           <li><a href="#processo">Como Trabalhamos</a></li>
           <li><a href="#contacto">Pedir Proposta</a></li>
         </ul>
