@@ -88,39 +88,41 @@ img, svg { display: block; max-width: 100%; }
 /* Header */
 .site-header {
   position: fixed; inset: 0 0 auto; z-index: 1000;
-  background: rgba(7, 24, 43, 0.92);
+  background: rgba(7, 24, 43, 0.94);
   backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   transition: all 0.3s ease;
 }
-.nav { min-height: 80px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.nav { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .brand {
-  display: flex; align-items: center; gap: 14px;
+  display: flex; align-items: center; gap: 12px;
   color: #fff; font-weight: 800; text-decoration: none;
+  white-space: nowrap; flex-shrink: 0;
 }
 .brand-logo-wrap {
-  width: 44px; height: 44px; border-radius: 12px;
+  width: 40px; height: 40px; border-radius: 11px;
   background: linear-gradient(135deg, #0d2b4d, #07182b);
   border: 1px solid rgba(214, 179, 106, 0.4);
-  display: grid; place-items: center; padding: 6px;
+  display: grid; place-items: center; padding: 5px;
   box-shadow: 0 4px 14px rgba(0,0,0,0.25);
 }
 .brand-text { display: flex; flex-direction: column; }
-.brand-text strong { font-size: 1.15rem; color: #fff; letter-spacing: -0.02em; line-height: 1.1; }
-.brand-text span { font-size: 0.68rem; color: var(--gold); font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+.brand-text strong { font-size: 1.05rem; color: #fff; letter-spacing: -0.02em; line-height: 1.1; }
+.brand-text span { font-size: 0.62rem; color: var(--gold); font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
 
-.menu { display: flex; align-items: center; gap: 28px; }
+.menu { display: flex; align-items: center; gap: 20px; }
 .menu a {
-  color: #cbd8e6; font-size: 0.92rem; font-weight: 600;
-  transition: color 0.2s ease;
+  color: #cbd8e6; font-size: 0.85rem; font-weight: 650;
+  white-space: nowrap; transition: color 0.2s ease;
 }
 .menu a:hover { color: var(--gold-light); }
 
-.nav-actions { display: flex; align-items: center; gap: 14px; }
+.nav-actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  border-radius: 999px; padding: 13px 26px; font-weight: 800; font-size: 0.94rem;
+  border-radius: 999px; padding: 10px 20px; font-weight: 800; font-size: 0.85rem;
   cursor: pointer; transition: all 0.25s ease; border: 1px solid transparent; text-decoration: none;
+  white-space: nowrap;
 }
 .btn-primary {
   background: linear-gradient(135deg, var(--gold-light), var(--gold));
@@ -495,7 +497,7 @@ input[type="range"] {
   display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;
 }
 
-/* Floating Pill CTA (Matching Previous Layout) */
+/* Floating Pill CTA (Matching Screenshot) */
 .floating-cta {
   position: fixed; right: 24px; bottom: 24px; z-index: 999;
   display: inline-flex; align-items: center; gap: 8px;
@@ -571,11 +573,11 @@ input[type="range"] {
     <button class="hamb" id="hambBtn" aria-label="Abrir menu de navegação" aria-expanded="false">☰</button>
 
     <nav class="menu" id="navMenu" aria-label="Navegação principal">
-      <a href="#segmentos">Para Quem É</a>
-      <a href="#servicos">O Que Fazemos</a>
-      <a href="#processo">Como Trabalhamos</a>
+      <a href="#segmentos">Segmentos</a>
+      <a href="#servicos">Soluções</a>
+      <a href="#processo">Processo</a>
       <a href="#simulador">Simulador</a>
-      <a href="#diferenciais">Porquê Nós</a>
+      <a href="#diferenciais">Vantagens</a>
       <a href="#faq">FAQ</a>
       <a href="#contacto">Contacto</a>
     </nav>
