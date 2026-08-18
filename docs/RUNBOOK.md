@@ -2,7 +2,7 @@
 Standard: DOC-STD-AUTOMATION-v3.0
 Doc Version: 1.0
 Last Updated: 2026-08-18
-Owner: Helton Trindade
+Owner: MalanzaBizz Team
 Status: Draft
 ---
 
@@ -59,7 +59,7 @@ python -m pytest tests/unit -q
 
 ## 8. Escalation
 
-- **Technical / Operations Lead:** Helton Trindade.
+- **Technical / Operations Lead:** MalanzaBizz Operations (ops@malanzabizz.com).
 
 ## 9. FAQ
 

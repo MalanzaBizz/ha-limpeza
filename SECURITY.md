@@ -1,8 +1,8 @@
 # Security Policy
 
-Owner: Helton Trindade  
-GitHub: @heltonlimatrindade  
-Organization: MyWorkOps  
+Owner: MalanzaBizz Operations  
+GitHub: @MalanzaBizz  
+Organization: MalanzaBizz  
 Classification: Commercial Asset Readiness Platform
 
 ## Reporting

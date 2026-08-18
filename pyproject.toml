@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "ha-limpeza"
 version = "1.0.0"
 description = "H.A - Limpeza: Property readiness and commercial asset management platform."
-authors = [{ name = "Helton Trindade" }]
+authors = [{ name = "MalanzaBizz Team", email = "ops@malanzabizz.com" }]
 requires-python = ">=3.12"
 dependencies = [
     "openpyxl>=3.1",

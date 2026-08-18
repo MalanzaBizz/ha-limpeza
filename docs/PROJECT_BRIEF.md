@@ -2,7 +2,7 @@
 Standard: DOC-STD-AUTOMATION-v3.0
 Doc Version: 1.0
 Last Updated: 2026-08-18
-Owner: Helton Trindade
+Owner: MalanzaBizz Team
 Status: Draft
 ---
 
@@ -50,7 +50,7 @@ A structured service framework offering 4 core tiers:
 
 ## 8. Stakeholders & Ownership
 
-- **Technical & Business Owner:** Helton Trindade.
+- **Technical & Business Owner:** MalanzaBizz Operations.
 - **Operations:** Field teams & B2B Commercial Partners.
 
 ## 9. Risks & Dependencies
