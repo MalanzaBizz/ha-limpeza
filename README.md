@@ -1,96 +1,120 @@
-# H.A - Limpeza | Property Readiness & Asset Care
+<div align="center">
 
-> **Preparação Profissional de Ativos Imobiliários para Venda, Arrendamento e Entrega.**  
-> *Sede em Almada · Operação em toda a Área Metropolitana de Lisboa (AML).*
+  <img src="assets/logo.png" alt="H.A - Limpeza Logo" width="260" />
+
+  # H.A - LIMPEZA
+  ### Property Readiness & Asset Care Platform
+
+  [![Standard](https://img.shields.io/badge/Standard-DOC--STD--AUTOMATION--v3.0-0078D4?style=flat-square)](docs/PROJECT_BRIEF.md)
+  [![Layout](https://img.shields.io/badge/Layout-PROJECT--LAYOUT--v2.0-16865c?style=flat-square)](docs/RUNBOOK.md)
+  [![Version](https://img.shields.io/badge/Version-1.0.0-gold?style=flat-square)](CHANGELOG.md)
+  [![License](https://img.shields.io/badge/Organization-MalanzaBizz-071b31?style=flat-square)](https://github.com/MalanzaBizz)
+  [![Status](https://img.shields.io/badge/Status-Operational-success?style=flat-square)](https://malanzabizz.github.io/ha-limpeza/)
+
+  <p align="center">
+    <strong>Preparação Profissional de Ativos Imobiliários para Venda, Arrendamento e Entrega de Chave.</strong><br />
+    <em>Operação B2B Integrada · Área Metropolitana de Lisboa (AML) · Almada</em>
+  </p>
+
+</div>
 
 ---
 
-## 📌 Posicionamento Estratégico
+## 📌 1. Visão Executiva & Posicionamento
 
-A **H.A - Limpeza** abandona a narrativa de empresa de limpeza tradicional e assume a liderança na categoria B2B de **Property Readiness & Asset Care**.
+A **H.A - Limpeza** redefine o padrão de serviços residenciais e corporativos ao liderar a categoria B2B de **Property Readiness & Asset Care**. 
 
-A nossa missão é eliminar a fricção na transição de imóveis, reduzindo períodos de vacatura e garantindo ativos prontos para comercialização ou entrega através de 4 soluções modulares auditáveis:
+Eliminamos a fricção operacional e os custos ocultos de vacatura na transição de ativos imobiliários para **agências, promotores, fundos imobiliários, gestores de património e proprietários institucionais**, garantindo conformidade estética, técnica e higiénica imediata.
 
-1. **Property Prep:** Preparação estética e profunda para sessões fotográficas, visitas e lançamento no mercado.
-2. **Renovation:** Limpeza técnica pós-obra com remoção mecânica de tintas, colas, silicones e poeiras finas com filtros HEPA.
-3. **Ready to Occupy:** Higienização de detalhe, desinfeção antiviral/antibacteriana de contacto e entrega de chave.
-4. **Property Care:** Vistorias quinzenais/mensais, purga de canalizações e prevenção de degradação passiva em imóveis desocupados.
+```
+Transição Imobiliária ──► Diagnóstico Rápido ──► Intervenção Modular ──► Certificação de Entrega
+   (Desocupação/Obra)        (T1 a T4+)          (4 Soluções SLA)          (Key-Ready Handover)
+```
 
 ---
 
-## 📂 Estrutura do Repositório
+## 🏢 2. Catálogo de Soluções Estratégicas
+
+| Solução | Escopo & Intervenção | Target & Momento | SLA / Tempo |
+| :--- | :--- | :--- | :---: |
+| **Property Prep** | Limpeza profunda e encenação visual para sessões fotográficas, visitas e lançamento no mercado. | Angariações imobiliárias, renovação de anúncios. | 4 – 6 Horas |
+| **Renovation Clean** | Limpeza técnica pós-obra com aspiração HEPA, remoção de colas, tintas, rejuntes e poeiras finas. | Conclusão de remodelações, obras e reabilitação. | 6 – 10 Horas |
+| **Ready to Occupy** | Higienização de detalhe, desinfeção antiviral/antibacteriana de contacto e finishing "white-glove". | Véspera de escritura, entrega de chaves a novos inquilinos. | 3 – 5 Horas |
+| **Property Care** | Gestão de conservação preventiva para imóveis desocupados: arejamento, vistorias e purga de ramais. | Imóveis fechados em carteira, carteiras de fundos. | Quinzenal / Mensal |
+
+---
+
+## 📊 3. Modelo Financeiro & Unit Economics
+
+O modelo assenta numa política de preços transparente, com margens brutas auditadas e controlo rígido de custos diretos (COGS):
+
+* **Margem Bruta Alvo:** $\ge 55\%$ em todas as intervenções standard.
+* **Escalação por Tipologia:** Preçário indexado a coeficientes de área (T1 base até Moradias/T4+).
+* **Fórmula de Custo Direto (COGS):**
+  $$\text{COGS} = (\text{Técnicos} \times \text{Horas} \times \text{Custo/Hora}) + \text{Consumíveis} + (\text{Km} \times 0.40€) + \text{Portagens} + \text{Seguro}$$
+* **Projeção Plurianual:** Trajetória de faturação de **€151.200 (Ano 1)** até **€1.108.800 (Ano 5)** com expansão de equipas dedicadas.
+
+---
+
+## 💻 4. Aplicação Web & Simulador Comercial
+
+A plataforma inclui um portal web moderno publicado em GitHub Pages:
+
+* 🌐 **Live Web App:** [malanzabizz.github.io/ha-limpeza](https://malanzabizz.github.io/ha-limpeza/)
+* **Simulador de Rentabilidade:** Cálculo instantâneo de margens, EBITDA e cash flow operacional.
+* **Motor de Preçário Editável:** Ajuste de pressupostos com persistência local em `localStorage`.
+* **Exportação Corporativa:** Geração de relatórios em CSV e vista de impressão para propostas comerciais.
+
+---
+
+## 📂 5. Arquitetura do Repositório (`PROJECT-LAYOUT-AUTOMATION-v2.0`)
 
 ```
 HA-Limpeza/
-├── README.md                          # Visão geral, arquitetura e instruções
-├── AGENTS.md                          # Contexto do agente e convenções
-├── config.json                        # Motor de preçário e rácios operacionais padrão
-├── docs/
-│   ├── 01_HA_Dossier_Comercial.md     # Dossier Comercial B2B
-│   ├── 02_HA_Plano_Negocios.md        # Plano de Negócios 5 Anos
-│   ├── 03_HA_Precario.md              # Documentação da Tabela Tarifária
-│   ├── 03_HA_Precario.xlsx            # Folha de cálculo Excel com a matriz de preços
-│   ├── 04_HA_Projecoes_Financeiras.md # Projeções Financeiras Plurianuais
+├── assets/                            # Identidade visual, logótipos e favicons
+│   ├── logo.png                       # Logótipo oficial de alta resolução
+│   ├── logo.svg                       # Logótipo vetorial SVG
+│   └── favicon.svg
+├── config/                            # Configurações de execução
+├── docs/                              # DOC-STD-AUTOMATION-v3.0
+│   ├── PROJECT_BRIEF.md               # L1 canónico — Especificações e arquitetura
+│   ├── RUNBOOK.md                     # L1 canónico — Manual operacional e SOP
+│   ├── 01_HA_Dossier_Comercial.md     # Dossier comercial B2B
+│   ├── 02_HA_Plano_Negocios.md        # Plano de negócios plurianual
+│   ├── 03_HA_Precario.xlsx            # Folha de cálculo matriz de preços
 │   ├── 04_HA_Projecoes_Financeiras.xlsx # Modelo financeiro Excel (5 Anos)
-│   ├── 05_HA_Manual_Comercial.md      # Manual Comercial, Scripts & Objeções
-│   ├── 06_HA_Investor_Memo.md         # Memorando de Investimento Executivo
-│   └── 07_HA_Brand_Guidelines.md      # Manual de Identidade Visual e Tokens
-├── website/
-│   ├── index.html                     # Aplicação Web & Landing Page Premium
-│   ├── 404.html                       # Página 404 personalizada
-│   ├── .nojekyll                      # Desativação do processamento Jekyll
-│   ├── css/
-│   │   └── style.css                  # Design System Corporativo (#071b33, #464feb)
-│   ├── js/
-│   │   ├── pricing-engine.js          # Motor de preçário e persistência local
-│   │   ├── simulator.js               # Simulador comercial e unit economics
-│   │   └── projections.js             # Projeções interativas multi-cenário
-│   └── assets/
-│       ├── logo.png                   # Logótipo oficial de alta resolução
-│       ├── logo.svg                   # Logótipo vetorial SVG
-│       └── favicon.svg                # Ícone do website
-├── scripts/
-│   ├── generate_docs_and_sheets.py    # Script de geração dos ficheiros Excel
-│   └── test_financial_engine.py       # Testes unitários do motor de cálculo
-└── .github/
-    └── workflows/
-        └── deploy.yml                 # Deploy automatizado no GitHub Pages
+│   ├── 05_HA_Manual_Comercial.md      # Manual de vendas e objeções
+│   └── 06_HA_Investor_Memo.md         # Memorando de investimento
+├── src/                               # Módulos centrais e adaptadores
+├── tests/                             # Testes automatizados
+│   └── unit/test_financial_engine.py  # Testes unitários do motor financeiro
+├── index.html                         # Portal web interativo de produção
+├── main.py                            # Ponto de entrada universal (run | gui | --version)
+├── pyproject.toml                     # Metadados de projeto Python >=3.12
+├── SECURITY.md                        # Política de segurança institucional
+├── CHANGELOG.md                       # Registo cronológico de versões
+└── .vscode/tasks.json                 # Tarefas de automação IDE
 ```
 
 ---
 
-## 🚀 Publicação no GitHub Pages
-
-O website está configurado para publicação automática através de **GitHub Actions** (`.github/workflows/deploy.yml`) ou manualmente:
-
-1. Aceda a **Settings > Pages** no repositório GitHub.
-2. Em **Build and deployment > Source**, selecione **GitHub Actions** (ou `Deploy from a branch` selecionando a pasta `/website` na branch `main`).
-3. O website ficará imediatamente disponível online com suporte total a:
-   - Simulação comercial em tempo real (Unit Economics, COGS, Margem %, EBITDA).
-   - Edição inline de preços base com persistência no navegador via `localStorage`.
-   - Projeções financeiras multi-cenário (Conservador, Realista, Agressivo).
-   - Exportação de relatórios para formato **CSV** e impressão formatada para **PDF**.
-   - Formulário de captação de leads B2B integrado com email corporativo.
-
----
-
-## 🧪 Testes & Validação Local
-
-Para validar as fórmulas financeiras e regenerar os ficheiros Excel:
+## ⚡ 6. Comandos & Execução Local
 
 ```bash
-# Executar a suite de testes unitários
-python scripts/test_financial_engine.py
+# 1. Executar o portal web interativo localmente
+python main.py gui
 
-# Regenerar as folhas de cálculo Excel
-python scripts/generate_docs_and_sheets.py
+# 2. Executar pipeline de validação e regeneração de folhas Excel
+python main.py run
+
+# 3. Executar a suite de testes unitários
+python -m unittest discover tests/unit -v
 ```
 
 ---
 
-## 📞 Contacto
+## 🛡️ 7. Governança & Segurança
 
-- **Central:** Almada, Portugal
-- **Raio de Atuação:** Área Metropolitana de Lisboa
-- **Email:** `contacto@ha-limpeza.pt`
-- **Telefone:** `+351 900 000 000`
+* **Segurança e Privacidade:** Nenhum dado pessoal identificável (PII) de clientes ou parceiros é registado em repositório público.
+* **Auditoria Contínua:** Conformidade rigorosa com as diretivas de engenharia do ecossistema `MalanzaBizz`.
+* **Contacto Institucional:** `ops@malanzabizz.com` · Almada, Portugal.
